@@ -6,7 +6,6 @@ import io
 
 
 app = Flask(__name__)
-app.secret_key = "your_secret_key"
 
 # Initialize the portfolio
 portfolio = {}
